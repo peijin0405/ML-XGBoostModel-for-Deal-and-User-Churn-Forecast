@@ -1,64 +1,34 @@
-# Lab
+# XGBoost Model for user order and user churn prediction
 
-## Goals
+## XGBoost & Data
 
--   Creating your public/private ssh key pair and knowing where to find the files
--   Using the Linux Shell and how it is critical for the cloud
--   BASH Exercise
+XGBoost Website: https://xgboost.readthedocs.io
+To install the XGBoost model, we can use the PIP installation method, for example, in the Windows operating system, Win+R shortcut keys to bring up the run box, enter cmd, enter the code in the pop-up interface and run: `pip install xgboost`
+The data used come from a travel company, and the XGBoost model was employed to predict user order and user churn.
 
-## Submission
+## XGBoost for Deal Prediction 
+### Workflow
+- Define the problem
+- Data Collection
+- Data Cleaning
+- Feature Engineering and Processing
+- Model Training
+- Evaluation and Tuning
+- Model Application 
 
-You will follow the submission process for all labs and assignments:
+## XGBoost for User Churn Prediction 
+### Workflow
+- Data Cleaning
+- Data Pre-processing
+- Missing Value Processing
+- Correlation Analysis
+- Dimension Reduction(PCA)
+- Data normalization
+- Model Training and Evaluation
+- Feature Engineering 
+- RFM Modeling and User Profiling
+- RFM Analysis
+- According Strategy
 
-1. Add all your requested files to the GitHub assignment repo for the appropriate deliverable.
-2. Submit a final commit message called "final-submission" to your repo. This is critical so that instructional team can evaluate your work. Do not change your GitHub repo after submitting the "final-submission" commit message
+A random sample of 80% of the dataset is used as the training dataset, and the remaining 20% is used as the test dataset for data mining calculation according to the XGBoost function format. For the trained model, the test data is imported into it to get the prediction data. The trained model is evaluated by comparing the predicted data with the actual data by calculating the model evaluation metrics (AUC).
 
-Make sure you commit only the files requested.
-
-The files to be committed and pushed to your repository for this assignment are:
-
-- test-environment/ and its subfolders
-- bash-history.txt
-- temp-numfiles.txt
-- other files that came with the repo
-
-
-# BASH Exercise
-
-1. There is a test environment folder in your Git repo that needs cleaning up. **You will use BASH commands only** to organize the files in this test environment into a structure like the following:
-
-```
-test-environment/
-├── docs
-├── models
-├── data
-│   ├── input
-│   └── output
-├── src
-│   ├── notebooks
-│   └── scripts
-└── temp
-```
-
-All the work on this repo and environment need to be BASH commands. That means changing directories, listing files, moving files, making directories, etc.
-
-2A. First, create all the folders within [git repo]/test-environment/ as shown in the tree diagram above
-
-2B. Remove the files that are marked with an "old" or "DELETE". You must do this using **globbing**.
-
-2C. Use pipes and arrows to find the number of files in `test-environment` folder and save into a file called `temp-numfiles.txt`. This step must be accomplished in one command.
-
-2D. Now navigate through your directory structure or effectively use `..` to move all the files into the appropriate folders. If you have any concerns about where the files should end up, run a comment command in BASH to justify your approach. The comment character in BASH is `#`. **You must use globbing at least two twice during your moving operations.**
-  
-  - temp-related files go into the temp folder
-  - .csv files go into the appropriate data subfolders
-  - .onyx files go into the models folder
-  - .md files go into the docs folder
-  - .ipynb and .py go into the appropriate src subfolders
-  
-
-2E. List the contents of your `test-environment` to show all the contents within this folder tree. Hint: are there flags that could help you avoid listing 7 directories?
-
-2F. Add, commit, and push your organized repo to GitHub
-
-3. Save your history of commands into a file in your Git repo using the command `history > bash-history.txt`. Add, commit, and push this file to your remote GitHub repo. Make sure you follow the steps in order, we are expecting to see multiple commits!
