@@ -23,8 +23,6 @@ Data and Data Description Catalog of **XGBoost for User Churn Prediction** is ac
 ## XGBoost for User Churn Prediction 
 ### Workflow
 - Data Pre-processing
-Data Cleaning
-Missing Value Processing
 - Correlation Analysis
 - Dimension Reduction(PCA)
 - Data normalization
