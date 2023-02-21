@@ -1,4 +1,4 @@
-# XGBoost Model for user order and user churn prediction
+# XGBoost Model for Online Order and User Churn Prediction
 
 ## XGBoost & Data
 
