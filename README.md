@@ -1,6 +1,6 @@
 # XGBoost Model for Online Order and User Churn Prediction
 
-## XGBoost & Data
+## XGBoost Model & Data
 
 XGBoost Website: https://xgboost.readthedocs.io
 
