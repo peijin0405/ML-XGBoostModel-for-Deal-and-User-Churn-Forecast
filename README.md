@@ -4,7 +4,7 @@
 
 XGBoost Website: https://xgboost.readthedocs.io
 
-To install the XGBoost model, we can use the PIP installation method, for example, in the Windows operating system, Win+R shortcut keys to bring up the run box, enter cmd, enter the code in the pop-up interface and run: `！pip install xgboost`
+To install the XGBoost model, we can use the pip installation method, for example, in the Windows operating system, Win+R shortcut keys to bring up the run box, enter cmd, enter the code in the pop-up interface and run: `！pip install xgboost`
 
 The data used come from a travel company, and the XGBoost model was employed to predict user order and user churn.
 Data and Data Description Catalog of **XGBoost for User Churn Prediction** is accessible through this link: https://drive.google.com/drive/folders/1D3boa4qNm-v0w3xFEaV3aWexcZudLFfc?usp=sharing
