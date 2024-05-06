@@ -58,13 +58,15 @@ The values of **lasthtlordergap (time since last order)**, **ordernum_oneyear (n
 
 ### User Profile Heatmap
 
-![User Profile Heatmap](https://github.com/peijin0405/ML-XGBoostModel-for-Deal-and-User-Churn-Forecast/assets/89746479/b5c238f4-f44f-47e4-ad0d-d3e0e6774c23)
+<p align="center">
+  <img src="https://github.com/peijin0405/ML-XGBoostModel-for-Deal-and-User-Churn-Forecast/assets/89746479/b5c238f4-f44f-47e4-ad0d-d3e0e6774c23" width="400" />
+  <img src="https://github.com/peijin0405/ML-XGBoostModel-for-Deal-and-User-Churn-Forecast/assets/89746479/a9a9f34d-46d3-462e-899f-9a31357b759f" width="400" /> 
+</p>
 
 * The R(lasthtlordergap) of Group2 users is -0.17, the score is very small(the smaller,the better), F(ordernum_oneyear) is 1.1, much higher, M(consumption_level) is 1.3 is also almost the highest. Obviously, Group2 customers are High-Value customers;
 * Group0 users have the lowest customer value and consumption level values. We classify this subgroup as Low-Value customers;
 * We classify Group1 as Medium-Value customers.
 
-![User Profile](https://github.com/peijin0405/ML-XGBoostModel-for-Deal-and-User-Churn-Forecast/assets/89746479/a9a9f34d-46d3-462e-899f-9a31357b759f)
 
 **High-Value customers analysis**
 
